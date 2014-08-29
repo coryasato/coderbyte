@@ -22,7 +22,7 @@ function SimpleMode(arr) {
     }
   }
   
-  return !mode ? -1 : mode;
+  return !mode ? -1 : mode;                 //3
 }
 
 //console.log(SimpleMode([5,10,10,6,5]));  //5

@@ -2,7 +2,7 @@
   1. Build up an object with the array values as properties and the number of times they occur
      as object values.
   2. We loop over those values and stop at the largest occurance.  We pass that property name over
-     to our mode variable calling parseInt(0) revert in back into a number (no quotes).
+     to our mode variable calling parseInt() to revert back into a number (no quotes).
   3. Mode is only defined if there are duplicates, else its undefined / !mode.
 */
 
